@@ -52,7 +52,15 @@ a {
     width: 250px;
     height: 250px;
 }
+.summaryCandice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.imgCandice {
+    width: auto;
+    height: auto;
+}
 #crew {
     grid-column: span 3;
     display: grid;
