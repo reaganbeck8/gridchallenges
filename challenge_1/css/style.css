@@ -23,13 +23,14 @@ body {
     grid-gap: 70px;
     padding: 20px;
     text-align: center;
+    
 }
 
 a {
     border: 2px solid black;
     padding: 10px;  
     text-decoration: none;
-    color: black;
+    color: rgb(14, 15, 24);
 }
 
 #about {
@@ -52,14 +53,19 @@ a {
     width: 250px;
     height: 250px;
 }
+.candiceImage {
+    padding: 2em;
+}
 .summaryCandice {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 3em;
+    text-align: justify;
 }
 
-.imgCandice {
-    width: auto;
-    height: auto;
+.aboutContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid black;
+    margin-left: 1.2em;
 }
 #crew {
     grid-column: span 3;
